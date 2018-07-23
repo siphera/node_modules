@@ -1,9 +1,9 @@
-//const chalk = require('chalk');
-//
-//const greet = require('./greet');
-//
-//const styledMessage = chalk.bgRed.black(greet('Xola'));
-//console.log(greet(styledMessage))
+const chalk = require('chalk');
+
+const greet = require('./greet');
+
+const styledMessage = chalk.bgGreen.black(greet('Xola'));
+console.log(greet(styledMessage))
 
 var figlet = require('figlet');
  
